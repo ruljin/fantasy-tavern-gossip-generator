@@ -23,6 +23,39 @@ module.exports = {
 			"warn",
 			{ allowConstantExport: true },
 		],
+		"block-spacing": ["error", "always"],
+		"comma-style": ["error", "last"],
+		indent: ["error", "tab"],
+		"no-multiple-empty-lines": [
+			"error",
+			{
+				max: 1,
+			},
+		],
+		"max-len": [
+			"error",
+			{
+				code: 120,
+			},
+		],
+		"keyword-spacing": [
+			"error",
+			{
+				before: true,
+				after: true,
+			},
+		],
+		"no-trailing-spaces": ["error"],
+		quotes: ["error", "double"],
+		semi: ["error", "always"],
+		"@typescript-eslint/space-before-blocks": ["error"],
+		"@typescript-eslint/space-before-function-paren": [
+			"error",
+			{
+				anonymous: "always",
+				named: "never",
+				asyncArrow: "always",
+			},
+		],
 	},
 };
-
