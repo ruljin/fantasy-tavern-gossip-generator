@@ -23,6 +23,17 @@ module.exports = {
 			"warn",
 			{ allowConstantExport: true },
 		],
+		eqeqeq: "error",
+		"max-depth": ["error", 3],
+		"no-console": "warn",
+		"no-magic-numbers": [
+			"error",
+			{
+				ignore: [0, 1],
+			},
+		],
+		"no-var": "error",
+		"prefer-const": "error",
 		"block-spacing": ["error", "always"],
 		"comma-style": ["error", "last"],
 		indent: ["error", "tab"],
