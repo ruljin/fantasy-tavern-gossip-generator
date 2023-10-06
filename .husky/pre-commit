@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Format app using Prettier
+npm run format
+
+# Check app using ESLint
+npm run lint
