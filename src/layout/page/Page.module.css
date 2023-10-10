@@ -1,0 +1,11 @@
+.page {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	color: black;
+	background-image: url("../../assets/background.JPG");
+	background-size: 100vw 100vh;
+	filter: opacity(0.65);
+}
