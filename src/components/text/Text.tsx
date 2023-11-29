@@ -1,4 +1,4 @@
-import { Typography } from "../../constants/Typograhpy";
+import { Typography } from "../../constants/Typography";
 
 import styles from "./Text.module.css";
 
