@@ -1,0 +1,16 @@
+.text {
+	margin-top: 10px;
+	margin-bottom: 0;
+	color: var(--color-black);
+	font-family: var(--main-font-family);
+	letter-spacing: var(--letter-spacing);
+}
+
+.text__header {
+	font-size: var(--font-large);
+}
+
+.text__paragraph {
+	margin-top: 20px;
+	font-size: var(--font-regular);
+}
