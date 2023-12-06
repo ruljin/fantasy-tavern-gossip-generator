@@ -5,11 +5,11 @@ import { CardFooter } from "./CardFooter";
 import styles from "./Card.module.css";
 
 export interface CardProps {
-	children: ReactNode;
+  children: ReactNode;
 }
 
 export const Card = ({ children }: CardProps) => (
-	<div className={styles.card}>{children}</div>
+  <div className={styles.card}>{children}</div>
 );
 
 Card.Body = CardBody;
