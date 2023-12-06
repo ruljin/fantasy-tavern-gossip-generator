@@ -1,4 +1,31 @@
 .card {
-	min-width: 300px;
-	min-height: 300px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  box-shadow: 0 8px 32px 0 var(--card-shadow);
+  border-radius: 8px;
+  box-sizing: border-box;
+  max-width: 260px;
+  min-height: 300px;
+  padding: 20px;
+  background-color: var(--card-background);
+}
+
+.card__footer {
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 361px) {
+  .card {
+    max-width: 620px;
+    min-height: 205px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .card {
+    max-width: 750px;
+    min-height: 205px;
+  }
 }
