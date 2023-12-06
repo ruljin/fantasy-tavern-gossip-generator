@@ -1,16 +1,17 @@
 .text {
-	margin-top: 10px;
-	margin-bottom: 0;
-	color: var(--color-black);
-	font-family: var(--main-font-family);
-	letter-spacing: var(--letter-spacing);
+  margin-bottom: 0;
+  color: var(--color-black);
+  font-family: var(--main-font-family);
+  text-shadow: 0.2px 0px var(--color-black);
+  letter-spacing: var(--letter-spacing);
 }
 
 .text__header {
-	font-size: var(--font-large);
+  margin-top: 0;
+  font-size: var(--font-large);
 }
 
 .text__paragraph {
-	margin-top: 20px;
-	font-size: var(--font-regular);
+  margin-top: 20px;
+  font-size: var(--font-regular);
 }
